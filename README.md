@@ -1,8 +1,8 @@
 # Sebug
 ---
-包含了Sebug上提交通过或因重复而未通过的漏洞详情和POC
+包含了Sebug上提交通过或因重复而未通过的漏洞详情或POC
 
-还包含少许未提交的
+还包含少许批量脚本
 
 ---
 ## List
@@ -18,3 +18,11 @@
 10. 新中新校园卡任意文件上传
 11. eYou老版本Cookie命令执行
 12. FlatPress Cross Site Scripting Vulnerability
+13. Zabbix弱口令批量检测
+14. JBoss综合getshell批量检测
+
+---
+## Censys.io
+censys_query.py 可获取censys.io上的ip，用法
+	
+	python censys_query.py query_str
